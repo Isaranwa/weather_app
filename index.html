@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      button {
+        border: 1px solid #7ea7e8;
+        border-radius: 20px;
+        padding: 10px 20px;
+        background-color: #4b85df;
+        color: white;
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+        margin: 0 auto;
+        box-shadow: 1px 1px 1px #4b85df;
+        text-align: center;
+        display: block;
+      }
+      button:hover {
+        color: #6464d9;
+        background-color: #ffffff;
+      }
+      p {
+        font-style: italic;
+        text-align: center;
+      }
+
+      .today {
+        color: #1a64d6;
+        padding-top: 0px;
+        text-align: center;
+      }
+      .cloud {
+        text-align: center;
+        padding: 0px;
+      }
+      .temp {
+        text-align: center;
+        padding-top: 0px;
+        font-size: x-large;
+      }
+      .tomorrow {
+        padding: 10px 0;
+        border: 2px #fffbef;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        text-align: center;
+        margin: 0px auto;
+        max-width: 400px;
+      }
+      .tomorrow:hover {
+        background-color: #fffbef;
+      }
+      .saturday {
+        padding: 10px 0;
+        border: 2px #fffbef;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        text-align: center;
+        margin: 0px auto;
+        max-width: 400px;
+      }
+      .saturday:hover {
+        background-color: #fffbef;
+      }
+      .sunday {
+        padding: 10px 0;
+        border: 2px #fffbef;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        text-align: center;
+        margin: 0px auto;
+        max-width: 400px;
+      }
+      .sunday:hover {
+        background-color: #fffbef;
+      }
+      #grey {
+        color: grey;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="cloud">
+      <h1>⛅</h1>
+    </div>
+    <div class="container" id="container">
+      <div class="today">
+        <h1>Currently 21° in Tokyo</h1>
+      </div>
+      <div class="temp">13° / <strong>23°</strong></div>
+
+      <div class="tomorrow">
+        <h3>☁ Tomorrow</h3>
+        <div id="grey">10° / <strong>22°</strong></div>
+      </div>
+      <div class="saturday">
+        <h3>⛅ Saturday</h3>
+        <div id="grey">15° / <strong>17°</strong></div>
+      </div>
+      <div class="sunday">
+        <h3>🌞 Sunday</h3>
+        <div id="grey">25° / <strong>28°</strong></div>
+      </div>
+
+      <button class="button">Change city</button>
+    </div>
+    <p>coded by Isaranwa</p>
+  </body>
+</html>
